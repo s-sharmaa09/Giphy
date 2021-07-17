@@ -1,9 +1,21 @@
-body{
-    background-color: black;
+body {
+    background-color: rgb(147, 193, 233);
 }
 
-img{
-    width: 50%;
-    height: auto;
-    margin: auto;
+.rating-circle {
+    height: 2em;
+    width: 2em;
+    border: .1em solid black;
+    border-radius: 1.1em;
+    display: inline-block;
+    margin: 0;
+    padding: .1em;
+}
+
+.rating-hover {
+    background-color: yellow;
+}
+
+.rating-chosen {
+    background-color: green;
 }
